@@ -515,13 +515,13 @@
               {
                 "id": "2",
                 "title": "Email Us",
-                "value": "info@yourcompany.com",
-                "href": "mailto:info@yourcompany.com"
+                "value": "info@xyz.com",
+                "href": "mailto:info@xyz.com"
               },
               {
                 "id": "3",
                 "title": "Visit Us",
-                "value": "A-25, Sector 62, Noida,\nUttar Pradesh – 201301",
+                "value": "5441, S Main St, Los Angeles, CA 90044, United States",
                 "href": "#"
               }
             ],
