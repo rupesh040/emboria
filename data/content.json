@@ -131,8 +131,8 @@
               "email": {
                 "icon": "mail",
                 "prefix": "Email:",
-                "address": "info@emboria.com",
-                "href": "mailto:info@emboria.com"
+                "address": "info@xyz.com",
+                "href": "mailto:info@xyz.com"
               },
               "socialLinks": [
                 {
@@ -198,8 +198,8 @@
             ],
             "callAction": {
               "title": "Call Us Now",
-              "phone": "(+01) 789 987 645",
-              "href": "tel:+01789987645",
+              "phone": "+1 000-000-000",
+              "href": "tel:+1000000000",
               "icon": "phone"
             }
           }
@@ -509,8 +509,8 @@
               {
                 "id": "1",
                 "title": "Call Us",
-                "value": "+91 98765 43210",
-                "href": "tel:+919876543210"
+                "value": "+1 000-000-000",
+                "href": "tel:++1000000000"
               },
               {
                 "id": "2",
@@ -596,23 +596,23 @@
               {
                 "id": "phone",
                 "icon": "phone",
-                "value": "+91 98765 43210",
-                "href": "tel:+919876543210"
+                "value": "+1 000-000-000",
+                "href": "tel:++1000000000"
               },
               {
                 "id": "email",
                 "icon": "email",
-                "value": "info@emboria.com",
-                "href": "mailto:info@emboria.com"
+                "value": "info@xyz.com",
+                "href": "mailto:info@xyz.com"
               },
               {
                 "id": "address",
                 "icon": "location",
-                "value": "A-25, Sector 62, Noida,\nUttar Pradesh – 201301",
+                "value": "5441, S Main St, Los Angeles, CA 90044, United States",
                 "href": "#"
               }
             ],
-            "copyright": "© 2026 Emboria. All Rights Reserved."
+            "copyright": "© 2026 Emboria. All Rights Reserved. Powered by Lestow"
           }
         }
       }

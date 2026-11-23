@@ -111,8 +111,8 @@ export default function About({ data }: AboutProps) {
   return (
     <section
       ref={sectionRef}
-      id="about"
-      className="emb-root relative w-full overflow-hidden bg-white py-16 sm:py-20 lg:py-24 xl:py-28 font-sans"
+      id="about-us"
+      className="emb-root scroll-mt-24 relative w-full overflow-hidden bg-white py-16 sm:py-20 lg:py-24 xl:py-28 font-sans"
     >
       <div className="emb-drift-a absolute -top-40 -left-40 w-96 h-96 rounded-full bg-[#700715]/[0.03] blur-3xl pointer-events-none" />
       <div className="emb-drift-b absolute -bottom-40 right-0 w-96 h-96 rounded-full bg-[#B58B78]/[0.10] blur-3xl pointer-events-none" />

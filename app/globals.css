@@ -10,7 +10,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-serif: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-serif:
+    "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +22,8 @@
 }
 
 html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
   scrollbar-gutter: stable;
 }
 

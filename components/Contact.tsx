@@ -208,7 +208,7 @@ export default function Contact() {
       id="contact"
       onMouseMove={handleSectionMove}
       onMouseLeave={handleSectionLeave}
-      className="ct-root py-16 sm:py-20 lg:py-24 bg-white relative overflow-hidden font-sans"
+      className="ct-root scroll-mt-24 py-16 sm:py-20 lg:py-24 bg-white relative overflow-hidden font-sans"
     >
       <div className="ct-drift-a absolute -top-32 -left-24 w-96 h-96 rounded-full bg-[#700715]/[0.03] blur-3xl pointer-events-none" />
       <div className="ct-drift-b absolute -bottom-40 right-[6%] w-[28rem] h-[28rem] rounded-full bg-[#B58B78]/[0.10] blur-3xl pointer-events-none" />
