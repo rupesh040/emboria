@@ -1,0 +1,621 @@
+{
+  "Emboria": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Header": "EmboriaHeader1",
+          "Footer": "EmboriaFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "EmboriaHero1"
+              },
+              {
+                "key": "About",
+                "component": "EmboriaAbout1"
+              },
+              {
+                "key": "Services",
+                "component": "EmboriaServices1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "EmboriaWhyChooseUs1"
+              },
+              {
+                "key": "Testimonial",
+                "component": "EmboriaTestimonial1"
+              },
+              {
+                "key": "FAQ",
+                "component": "EmboriaFAQ1"
+              },
+              {
+                "key": "Contact",
+                "component": "EmboriaContact1"
+              },
+              {
+                "key": "Footer",
+                "component": "EmboriaFooter1"
+              }
+            ]
+          },
+          "about-us": {
+            "components": [
+              {
+                "key": "PageBanner",
+                "component": "EmboriaPageBanner1"
+              },
+              {
+                "key": "About",
+                "component": "EmboriaAbout1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "PageBanner",
+                "component": "EmboriaPageBanner1"
+              },
+              {
+                "key": "ServicesListing",
+                "component": "EmboriaServicesPage1"
+              }
+            ]
+          },
+          "why-us": {
+            "components": [
+              {
+                "key": "PageBanner",
+                "component": "EmboriaPageBanner1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "EmboriaWhyChooseUs1"
+              }
+            ]
+          },
+          "testimonials": {
+            "components": [
+              {
+                "key": "PageBanner",
+                "component": "EmboriaPageBanner1"
+              },
+              {
+                "key": "Testimonial",
+                "component": "EmboriaTestimonial1"
+              }
+            ]
+          },
+          "faqs": {
+            "components": [
+              {
+                "key": "PageBanner",
+                "component": "EmboriaPageBanner1"
+              },
+              {
+                "key": "FAQ",
+                "component": "EmboriaFAQ1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "PageBanner",
+                "component": "EmboriaPageBanner1"
+              },
+              {
+                "key": "ContactDetails",
+                "component": "EmboriaContact1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "Header": {
+        "variants": {
+          "EmboriaHeader1": {
+            "topBar": {
+              "workingHours": {
+                "icon": "clock",
+                "prefix": "Working Hours:",
+                "time": "08:00 am to 06:00 pm"
+              },
+              "email": {
+                "icon": "mail",
+                "prefix": "Email:",
+                "address": "info@emboria.com",
+                "href": "mailto:info@emboria.com"
+              },
+              "socialLinks": [
+                {
+                  "name": "Facebook",
+                  "icon": "facebook",
+                  "href": "https://facebook.com"
+                },
+                {
+                  "name": "Instagram",
+                  "icon": "instagram",
+                  "href": "https://instagram.com"
+                },
+                {
+                  "name": "LinkedIn",
+                  "icon": "linkedin",
+                  "href": "https://linkedin.com"
+                },
+                {
+                  "name": "YouTube",
+                  "icon": "youtube",
+                  "href": "https://youtube.com"
+                }
+              ]
+            },
+            "logo": "/logo.webp",
+            "logoAlt": "EMBORIA - EMBASSIES & CONSULATES",
+            "links": [
+              {
+                "name": "Home",
+                "href": "/",
+                "active": true
+              },
+              {
+                "name": "About Us",
+                "href": "#about-us",
+                "active": false
+              },
+              {
+                "name": "Services",
+                "href": "#services",
+                "active": false
+              },
+              {
+                "name": "Why us",
+                "href": "#why-us",
+                "active": false
+              },
+              {
+                "name": "Testimonials",
+                "href": "#testimonials",
+                "active": false
+              },
+              {
+                "name": "Faqs",
+                "href": "#faqs",
+                "active": false
+              },
+              {
+                "name": "Contact Us",
+                "href": "#contact",
+                "active": false
+              }
+            ],
+            "callAction": {
+              "title": "Call Us Now",
+              "phone": "(+01) 789 987 645",
+              "href": "tel:+01789987645",
+              "icon": "phone"
+            }
+          }
+        }
+      },
+      "Hero": {
+        "variants": {
+          "EmboriaHero1": {
+            "tagline": "EMBASSIES & CONSULATES",
+            "taglineDivider": true,
+            "heading": "Global Consular & Visa Services",
+            "headingPart1": "Global Consular",
+            "headingPart2": "& Visa Services",
+            "description": "Reliable consular support, visa assistance and embassy information for a seamless international journey.",
+            "backgroundImage": "/hero.webp",
+            "imageAlt": "Global Consular and Visa Services Embassy"
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "EmboriaAbout1": {
+            "tagline": "ABOUT EMBORIA",
+            "taglineDivider": true,
+            "heading": "Trusted Consular Support for Your Global Journey",
+            "headingPart1": "Trusted Consular Support",
+            "headingPart2": "for Your Global Journey",
+            "description": "At EMBORIA, we provide reliable embassy and consulate information, visa guidance and global travel support to make your international journey simple, informed and hassle-free.",
+            "socialProof": {
+              "avatars": [
+                {
+                  "image": "/avatar-1.webp",
+                  "alt": "Traveler 1"
+                },
+                {
+                  "image": "/avatar-2.webp",
+                  "alt": "Traveler 2"
+                },
+                {
+                  "image": "/avatar-3.webp",
+                  "alt": "Traveler 3"
+                },
+                {
+                  "image": "/avatar-4.webp",
+                  "alt": "Traveler 4"
+                }
+              ],
+              "badge": "10K+",
+              "labelPart1": "Assisted Travelers",
+              "labelPart2": "& Visa Applicants."
+            },
+            "features": [
+              {
+                "title": "Embassy & Consulate Information"
+              },
+              {
+                "title": "Travel & Documentation Assistance"
+              },
+              {
+                "title": "Visa Guidance & Application Support"
+              },
+              {
+                "title": "Immigration & Re-entry Support"
+              }
+            ],
+            "images": {
+              "front": {
+                "src": "/about-2.webp",
+                "alt": "Passport and travel documents"
+              },
+              "back": {
+                "src": "/about-1.webp",
+                "alt": "Embassy and Consulates official building"
+              }
+            }
+          }
+        }
+      },
+      "Services": {
+        "variants": {
+          "EmboriaServices1": {
+            "tagline": "OUR SERVICES",
+            "taglineDividers": true,
+            "heading": "Comprehensive Consular & Immigration Services",
+            "headingPart1": "Comprehensive Consular &",
+            "headingPart2": "Immigration Services",
+            "items": [
+              {
+                "id": "1",
+                "title": "Visa Assistance",
+                "description": "End-to-end support for tourist, student, business and work visas across multiple countries.",
+                "image": "/service-1.webp",
+                "imageAlt": "Visa Assistance with passport and travel documents",
+                "href": "#contact"
+              },
+              {
+                "id": "2",
+                "title": "Consular Services",
+                "description": "Guidance and documentation support for embassy and consulate-related processes.",
+                "image": "/service-2.webp",
+                "imageAlt": "Consular Services official stamp and documents",
+                "href": "#contact"
+              },
+              {
+                "id": "3",
+                "title": "Immigration Support",
+                "description": "Complete assistance for immigration, residency and long-term stay applications.",
+                "image": "/service-3.webp",
+                "imageAlt": "Immigration Support globe and travel model",
+                "href": "#contact"
+              },
+              {
+                "id": "4",
+                "title": "Documentation Services",
+                "description": "Accurate preparation, verification and processing of all required travel and immigration documents.",
+                "image": "/service-4.webp",
+                "imageAlt": "Documentation Services verification and processing",
+                "href": "#contact"
+              }
+            ]
+          }
+        }
+      },
+      "WhyChooseUs": {
+        "variants": {
+          "EmboriaWhyChooseUs1": {
+            "tagline": "WHY CHOOSE US",
+            "taglineDivider": true,
+            "headingPart1": "Some Reasons People",
+            "headingPart2": "Choose",
+            "headingHighlight": "Our Consultancy",
+            "description": "We provide reliable guidance, transparent processes and personalized support to make your visa and immigration journey simple, secure and successful.",
+            "features": [
+              {
+                "icon": "users",
+                "title": "Expert Guidance",
+                "description": "Get professional advice from experienced visa and immigration consultants."
+              },
+              {
+                "icon": "file-check",
+                "title": "Simple & Transparent Process",
+                "description": "Hassle-free documentation with complete transparency at every step."
+              },
+              {
+                "icon": "shield-check",
+                "title": "High Success Rate",
+                "description": "A proven track record of successful visa and immigration applications."
+              }
+            ],
+            "badgeCard": {
+              "count": "10M+",
+              "label": "Trusted Customers",
+              "avatars": [
+                {
+                  "image": "/customer-1.webp",
+                  "alt": "Customer 1"
+                },
+                {
+                  "image": "/customer-2.webp",
+                  "alt": "Customer 2"
+                },
+                {
+                  "image": "/customer-3.webp",
+                  "alt": "Customer 3"
+                },
+                {
+                  "image": "/customer-4.webp",
+                  "alt": "Customer 4"
+                }
+              ]
+            },
+            "images": {
+              "main": {
+                "src": "/whychoose-1.webp",
+                "alt": "Happy traveler with passport and tickets at airport"
+              },
+              "topRight": {
+                "src": "/whychoose-2.webp",
+                "alt": "Consultant advising client with laptop and world map"
+              },
+              "bottomRight": {
+                "src": "/whychoose-3.webp",
+                "alt": "Smiling couple holding passports and visas"
+              }
+            }
+          }
+        }
+      },
+      "Testimonials": {
+        "variants": {
+          "EmboriaTestimonials1": {
+            "tagline": "TESTIMONIALS",
+            "taglineDividers": true,
+            "headingPart1": "What Our Clients",
+            "headingHighlight": "Say",
+            "description": "Real experiences from our happy clients who trusted us for their visa and immigration journey.",
+            "items": [
+              {
+                "id": "1",
+                "name": "Rahul Mehta",
+                "role": "Student Visa",
+                "rating": 5,
+                "image": "/testimonial-1.webp",
+                "imageAlt": "Rahul Mehta",
+                "quote": "The team guided me through my student visa process with complete professionalism. The entire process was smooth and hassle-free."
+              },
+              {
+                "id": "2",
+                "name": "Priya Sharma",
+                "role": "Work Visa",
+                "rating": 5,
+                "image": "/testimonial-2.webp",
+                "imageAlt": "Priya Sharma",
+                "quote": "Excellent support and clear guidance at every step. I received my work visa on time without any complications. Highly recommended!"
+              },
+              {
+                "id": "3",
+                "name": "Arjun Khanna",
+                "role": "PR Immigration",
+                "rating": 5,
+                "image": "/testimonial-3.webp",
+                "imageAlt": "Arjun Khanna",
+                "quote": "A reliable and trustworthy consultancy for immigration services. Their team was always responsive and made the process very easy."
+              },
+              {
+                "id": "4",
+                "name": "Sneha Patel",
+                "role": "Visitor Visa",
+                "rating": 5,
+                "image": "/testimonial-2.webp",
+                "imageAlt": "Sneha Patel",
+                "quote": "Exceptional service from start to finish. The counselors explained every document clearly and ensured my application was approved quickly."
+              },
+              {
+                "id": "5",
+                "name": "Vikram Singhania",
+                "role": "Business Visa",
+                "rating": 5,
+                "image": "/testimonial-1.webp",
+                "imageAlt": "Vikram Singhania",
+                "quote": "Top-notch professionalism and fast turnaround. They handled my complex corporate visa requirements seamlessly."
+              },
+              {
+                "id": "6",
+                "name": "Ananya Roy",
+                "role": "Family Visa",
+                "rating": 5,
+                "image": "/testimonial-3.webp",
+                "imageAlt": "Ananya Roy",
+                "quote": "Transparent fees, accurate guidance, and reassuring communication throughout. Highly recommended for all embassy and visa services."
+              }
+            ]
+          }
+        }
+      },
+      "FAQ": {
+        "variants": {
+          "EmboriaFAQ1": {
+            "tagline": "FAQS",
+            "taglineDividers": true,
+            "headingPart1": "Frequently Asked",
+            "headingHighlight": "Questions",
+            "description": "Find answers to the most common questions about our visa, immigration and consultancy services.",
+            "image": {
+              "src": "/faq.webp",
+              "alt": "Passport on world map with miniature airplane and travel photographs"
+            },
+            "items": [
+              {
+                "id": "1",
+                "question": "What types of visa services do you offer?",
+                "answer": "We provide a wide range of visa services including Tourist Visa, Student Visa, Work Visa, Business Visa and Immigration support for various countries."
+              },
+              {
+                "id": "2",
+                "question": "How long does the visa process take?",
+                "answer": "Processing times vary depending on the destination country and visa category, typically ranging from a few days to several weeks. We provide exact timelines during your initial consultation."
+              },
+              {
+                "id": "3",
+                "question": "What documents are required for a visa application?",
+                "answer": "Basic documents include a valid passport, photographs, financial statements, travel itinerary, and relevant sponsorship or invitation letters. Our team provides a tailored checklist for your specific visa type."
+              },
+              {
+                "id": "4",
+                "question": "Do you provide immigration and PR services?",
+                "answer": "Yes, we offer end-to-end assistance for Permanent Residency (PR), skilled migration, family sponsorship, and long-term settlement programs across top global destinations."
+              },
+              {
+                "id": "5",
+                "question": "Can you help with visa rejections or re-application?",
+                "answer": "Absolutely. We analyze refusal letters, identify underlying gaps, strengthen supporting documentation, and prepare compelling re-applications or appeals to maximize approval chances."
+              }
+            ]
+          }
+        }
+      },
+      "Contact": {
+        "variants": {
+          "EmboriaContact1": {
+            "tagline": "CONTACT US",
+            "taglineDivider": true,
+            "headingPart1": "Get in Touch With Our",
+            "headingHighlight": "Visa Experts",
+            "description": "Have questions about your visa or immigration process? Our team is here to guide you with the right solutions.",
+            "contactInfo": [
+              {
+                "id": "1",
+                "title": "Call Us",
+                "value": "+91 98765 43210",
+                "href": "tel:+919876543210"
+              },
+              {
+                "id": "2",
+                "title": "Email Us",
+                "value": "info@yourcompany.com",
+                "href": "mailto:info@yourcompany.com"
+              },
+              {
+                "id": "3",
+                "title": "Visit Us",
+                "value": "A-25, Sector 62, Noida,\nUttar Pradesh – 201301",
+                "href": "#"
+              }
+            ],
+            "image": {
+              "src": "/contact.webp",
+              "alt": "Travel suitcase, red passport and straw hat with international landmark silhouettes"
+            },
+            "form": {
+              "title": "Send Us a Message",
+              "description": "Fill in the details below and our team will get back to you shortly.",
+              "namePlaceholder": "Your Name *",
+              "emailPlaceholder": "Your Email *",
+              "phonePlaceholder": "Phone Number *",
+              "servicePlaceholder": "Service Interested In",
+              "servicesOptions": [
+                "Tourist Visa",
+                "Student Visa",
+                "Work Visa",
+                "Business Visa",
+                "Immigration Support",
+                "Documentation Services"
+              ],
+              "messagePlaceholder": "Your Message *",
+              "buttonText": "Send Message",
+              "successMessage": "Thank you! Your message has been sent successfully."
+            }
+          }
+        }
+      },
+      "Footer": {
+        "variants": {
+          "EmboriaFooter1": {
+            "logo": "/logo.webp",
+            "logoAlt": "EMBORIA - EMBASSIES & CONSULATES",
+            "description": "Your trusted partner for visa, immigration and global travel solutions with reliable guidance and complete support.",
+            "quickLinksTitle": "Quick Links",
+            "quickLinks": [
+              {
+                "name": "Home",
+                "href": "/"
+              },
+              {
+                "name": "About Us",
+                "href": "#about-us"
+              },
+              {
+                "name": "Services",
+                "href": "#services"
+              },
+              {
+                "name": "Why Choose Us",
+                "href": "#why-us"
+              }
+            ],
+            "supportTitle": "Support",
+            "supportLinks": [
+              {
+                "name": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "name": "FAQs",
+                "href": "#faqs"
+              },
+              {
+                "name": "Contact Us",
+                "href": "#contact"
+              }
+            ],
+            "contactTitle": "Get in Touch",
+            "contactItems": [
+              {
+                "id": "phone",
+                "icon": "phone",
+                "value": "+91 98765 43210",
+                "href": "tel:+919876543210"
+              },
+              {
+                "id": "email",
+                "icon": "email",
+                "value": "info@emboria.com",
+                "href": "mailto:info@emboria.com"
+              },
+              {
+                "id": "address",
+                "icon": "location",
+                "value": "A-25, Sector 62, Noida,\nUttar Pradesh – 201301",
+                "href": "#"
+              }
+            ],
+            "copyright": "© 2026 Emboria. All Rights Reserved."
+          }
+        }
+      }
+    }
+  }
+}
