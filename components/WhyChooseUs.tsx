@@ -160,7 +160,7 @@ export default function WhyChooseUs({ data }: WhyChooseUsProps) {
     <section
       ref={sectionRef}
       id="why-us"
-      className={`wcu-root scroll-mt-24 relative w-full bg-white py-16 sm:py-20 lg:py-28 overflow-hidden font-sans border-t border-neutral-100 ${
+      className={`wcu-root scroll-mt-24 relative w-full bg-white py-16 overflow-hidden font-sans border-t border-neutral-100 ${
         inView ? "wcu-in" : ""
       }`}
     >

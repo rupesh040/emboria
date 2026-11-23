@@ -505,12 +505,12 @@
             "headingPart1": "Get in Touch With Our",
             "headingHighlight": "Visa Experts",
             "description": "Have questions about your visa or immigration process? Our team is here to guide you with the right solutions.",
-            "contactInfo": [
+            "contactInfo":[
               {
                 "id": "1",
                 "title": "Call Us",
                 "value": "+1 000-000-000",
-                "href": "tel:++1000000000"
+                "href": "tel:+1000000000"
               },
               {
                 "id": "2",
@@ -597,7 +597,7 @@
                 "id": "phone",
                 "icon": "phone",
                 "value": "+1 000-000-000",
-                "href": "tel:++1000000000"
+                "href": "tel:+1000000000"
               },
               {
                 "id": "email",

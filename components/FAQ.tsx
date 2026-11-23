@@ -90,7 +90,7 @@ export default function FAQ({ data }: FAQProps) {
     <section
       ref={sectionRef}
       id="faqs"
-      className="fq-root scroll-mt-24 w-full bg-white py-16 sm:py-20 lg:py-28 overflow-hidden font-sans border-t border-neutral-100"
+      className="fq-root scroll-mt-24 w-full bg-white py-16 overflow-hidden font-sans border-t border-neutral-100"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex flex-col items-center text-center">
