@@ -90,7 +90,7 @@ export default function FAQ({ data }: FAQProps) {
     <section
       ref={sectionRef}
       id="faqs"
-      className="fq-root scroll-mt-24 w-full bg-white py-16 overflow-hidden font-sans border-t border-neutral-100"
+      className="fq-root scroll-mt-24 w-full bg-white py-10 sm:py-14 lg:py-16 overflow-hidden font-sans border-t border-neutral-100"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex flex-col items-center text-center">
@@ -146,7 +146,7 @@ export default function FAQ({ data }: FAQProps) {
           </p>
         </div>
  
-        <div className="mt-12 sm:mt-16 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
+        <div className="mt-8 sm:mt-12 lg:mt-16 grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-14 items-start">
           <div className="lg:col-span-5 min-w-0 self-start relative flex items-center justify-center">
             <div className="relative isolate w-full aspect-square max-w-[440px] sm:max-w-[480px] shrink-0">
               <div

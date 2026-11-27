@@ -75,7 +75,7 @@ export default function Services({ data }: ServicesProps) {
     <section
       ref={sectionRef}
       id="services"
-      className="svc-root scroll-mt-24 relative w-full bg-white py-16 overflow-hidden font-sans border-t border-neutral-100"
+      className="svc-root scroll-mt-24 relative w-full bg-white py-10 sm:py-14 lg:py-16 overflow-hidden font-sans border-t border-neutral-100"
     >
       <div className="svc-drift-a absolute -top-32 left-[8%] w-96 h-96 rounded-full bg-[#700715]/[0.03] blur-3xl pointer-events-none" />
       <div className="svc-drift-b absolute -bottom-40 right-[6%] w-[28rem] h-[28rem] rounded-full bg-[#B58B78]/[0.10] blur-3xl pointer-events-none" />

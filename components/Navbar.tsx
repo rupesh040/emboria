@@ -447,6 +447,31 @@ export default function Navbar({ data }: NavbarProps) {
                   <Phone className="w-4 h-4 text-white fill-white stroke-0" />
                   <span>{headerData.callAction.phone}</span>
                 </a>
+
+                {headerData.topBar.socialLinks && (
+                  <div
+                    className={`mt-4 pt-4 border-t border-neutral-200/70 flex items-center justify-center gap-3 transition-all duration-500 ${
+                      menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                    }`}
+                    style={{
+                      transitionDelay: menuOpen ? `${200 + headerData.links.length * 55}ms` : "0ms",
+                      transitionTimingFunction: smoothEase,
+                    }}
+                  >
+                    {headerData.topBar.socialLinks.map((social) => (
+                      <a
+                        key={social.name}
+                        href={social.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={social.name}
+                        className="w-10 h-10 rounded-full bg-white text-[#710D19] border border-neutral-200 flex items-center justify-center shadow-xs hover:bg-[#710D19] hover:text-white hover:border-[#710D19] active:scale-95 transition-all duration-300"
+                      >
+                        {renderSocialIcon(social.icon)}
+                      </a>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
           </div>

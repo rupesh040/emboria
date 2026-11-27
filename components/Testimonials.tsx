@@ -141,7 +141,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
     <section
       ref={sectionRef}
       id="testimonials"
-      className="tt-root scroll-mt-24 w-full bg-white py-16 overflow-hidden font-sans border-t border-neutral-100"
+      className="tt-root scroll-mt-24 w-full bg-white py-10 sm:py-14 lg:py-16 overflow-hidden font-sans border-t border-neutral-100"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
         <div className="flex flex-col items-center text-center">
@@ -208,7 +208,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
             onPointerUp={(event) => finishDrag(event, false)}
             onPointerCancel={(event) => finishDrag(event, true)}
             onDragStart={(event) => event.preventDefault()}
-            className={`tt-track mt-12 sm:mt-16 overflow-hidden w-full select-none touch-pan-y ${
+            className={`tt-track mt-8 sm:mt-12 lg:mt-16 overflow-hidden w-full select-none touch-pan-y ${
               dragging ? "cursor-grabbing" : "cursor-grab"
             } transition-all duration-[1200ms] ${reveal(
               "opacity-100 translate-y-0",
@@ -253,7 +253,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
  
                           <div>
                             <div
-                              className={`w-10 h-10 rounded-full bg-[#fbf2ec] flex items-center justify-center text-[#700715] mb-5 shrink-0 shadow-2xs transition-all duration-700 group-hover:-rotate-12 group-hover:scale-110 ${
+                              className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-[#fbf2ec] flex items-center justify-center text-[#710D19] mb-5 shrink-0 shadow-2xs transition-all duration-700 group-hover:-rotate-12 group-hover:scale-110 ${
                                 shown ? "scale-100 opacity-100" : "scale-50 opacity-0"
                               }`}
                               style={{
@@ -261,7 +261,7 @@ export default function Testimonials({ data }: TestimonialsProps) {
                                 transitionTimingFunction: springEase,
                               }}
                             >
-                              <span className="font-serif text-2xl font-bold leading-none select-none text-[#6d1322]">
+                              <span className="font-serif text-3xl sm:text-4xl font-black leading-none select-none text-[#710D19] pt-1.5">
                                 “
                               </span>
                             </div>

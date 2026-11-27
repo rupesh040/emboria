@@ -112,13 +112,13 @@ export default function About({ data }: AboutProps) {
     <section
       ref={sectionRef}
       id="about-us"
-      className="emb-root scroll-mt-24 relative w-full overflow-hidden bg-white py-16 font-sans"
+      className="emb-root scroll-mt-24 relative w-full overflow-hidden bg-white py-10 sm:py-14 lg:py-16 font-sans"
     >
       <div className="emb-drift-a absolute -top-40 -left-40 w-96 h-96 rounded-full bg-[#700715]/[0.03] blur-3xl pointer-events-none" />
       <div className="emb-drift-b absolute -bottom-40 right-0 w-96 h-96 rounded-full bg-[#B58B78]/[0.10] blur-3xl pointer-events-none" />
     
       <div className="relative max-w-[1400px] mx-auto px-5 sm:px-8 lg:px-12 xl:px-14">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-8 xl:gap-12 items-center">
           <div className="lg:col-span-7 relative z-10 flex flex-col justify-center">
             <div className="flex items-center gap-3 sm:gap-4 mb-6">
               <span
@@ -142,7 +142,7 @@ export default function About({ data }: AboutProps) {
               )}
             </div>
  
-            <h2 className="font-serif font-bold text-[36px] sm:text-[44px] md:text-[52px] lg:text-[48px] xl:text-[62px] leading-[1.12] tracking-[-0.035em]">
+            <h2 className="font-serif font-bold text-[24px] xs:text-[27px] sm:text-[44px] md:text-[52px] lg:text-[48px] xl:text-[62px] leading-tight sm:leading-[1.12] tracking-tight sm:tracking-[-0.035em]">
               <span className="block overflow-hidden pb-[0.08em]">
                 <span
                   className={`block text-[#78151F] transition-all duration-[1200ms] hover:text-[#9A2530] ${reveal(

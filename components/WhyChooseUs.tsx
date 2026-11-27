@@ -160,7 +160,7 @@ export default function WhyChooseUs({ data }: WhyChooseUsProps) {
     <section
       ref={sectionRef}
       id="why-us"
-      className={`wcu-root scroll-mt-24 relative w-full bg-white py-16 overflow-hidden font-sans border-t border-neutral-100 ${
+      className={`wcu-root scroll-mt-24 relative w-full bg-white py-10 sm:py-14 lg:py-16 overflow-hidden font-sans border-t border-neutral-100 ${
         inView ? "wcu-in" : ""
       }`}
     >
@@ -173,7 +173,7 @@ export default function WhyChooseUs({ data }: WhyChooseUsProps) {
       />
  
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 flex flex-col justify-center">
             <div className="flex items-center space-x-3 sm:space-x-4 mb-4 sm:mb-5">
               <span
@@ -197,7 +197,7 @@ export default function WhyChooseUs({ data }: WhyChooseUsProps) {
               )}
             </div>
  
-            <h2 className="font-serif font-bold text-3xl sm:text-4xl md:text-5xl lg:text-[50px] leading-[1.14] tracking-tight">
+            <h2 className="font-serif font-bold text-2xl xs:text-[28px] sm:text-4xl md:text-5xl lg:text-[50px] leading-tight sm:leading-[1.14] tracking-tight">
               <span className="block overflow-hidden pb-[0.08em]">
                 <span
                   className={`block text-[#6d1322] transition-all duration-[1200ms] ${reveal(
@@ -339,14 +339,14 @@ export default function WhyChooseUs({ data }: WhyChooseUsProps) {
                 </div>
  
                 <div
-                  className={`absolute -bottom-3 -left-3 sm:-bottom-4 sm:-left-5 z-20 transition-all duration-[1200ms] ${reveal(
+                  className={`absolute bottom-5 left-4 sm:bottom-8 sm:-left-5 lg:bottom-10 lg:-left-6 z-20 transition-all duration-[1200ms] ${reveal(
                     "opacity-100 translate-x-0 translate-y-0 scale-100",
                     "opacity-0 -translate-x-10 translate-y-10 scale-90"
                   )}`}
                   style={{ transitionDelay: "1000ms", transitionTimingFunction: springEase }}
                 >
                   <div className="wcu-bob">
-                    <div className="relative overflow-hidden bg-[#7d0f20] text-white p-4 sm:p-6 rounded-2xl shadow-[0_22px_45px_rgba(80,8,20,0.38)] flex items-stretch gap-3.5 sm:gap-4 border border-white/10 transition-transform duration-500 hover:scale-105 min-w-[230px] sm:min-w-[290px]">
+                    <div className="relative overflow-hidden bg-[#710D19] text-white p-4 sm:p-6 rounded-2xl shadow-[0_22px_45px_rgba(80,8,20,0.38)] flex items-stretch gap-3.5 sm:gap-4 border border-white/10 transition-transform duration-500 hover:scale-105 min-w-[210px] xs:min-w-[230px] sm:min-w-[290px]">
                       <span className="wcu-sweep-badge absolute inset-y-0 left-0 w-1/3 -skew-x-12 bg-gradient-to-r from-transparent via-white/15 to-transparent pointer-events-none" />
  
                       <div
@@ -384,7 +384,7 @@ export default function WhyChooseUs({ data }: WhyChooseUsProps) {
                                 transitionTimingFunction: springEase,
                               }}
                             >
-                              <div className="relative w-7 h-7 sm:w-9 sm:h-9 rounded-full overflow-hidden border-2 border-[#e9d7d0] shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:scale-110 cursor-pointer">
+                              <div className="relative w-7 h-7 sm:w-9 sm:h-9 rounded-full overflow-hidden border-2 border-white shadow-md transition-all duration-300 hover:-translate-y-1.5 hover:scale-110 cursor-pointer">
                                 <Image
                                   src={av.image}
                                   alt={av.alt}
@@ -402,7 +402,7 @@ export default function WhyChooseUs({ data }: WhyChooseUsProps) {
                 </div>
               </div>
  
-              <div className="sm:col-span-6 flex flex-col gap-4 lg:gap-5">
+              <div className="sm:col-span-6 flex flex-col gap-4 lg:gap-5 mt-4 sm:mt-0">
                 <div
                   className="relative w-full aspect-[4/3] sm:aspect-auto sm:flex-1 sm:min-h-[200px]"
                   style={parallax(14, -10)}
