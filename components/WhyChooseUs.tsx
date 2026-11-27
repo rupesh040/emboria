@@ -346,7 +346,7 @@ export default function WhyChooseUs({ data }: WhyChooseUsProps) {
                   style={{ transitionDelay: "1000ms", transitionTimingFunction: springEase }}
                 >
                   <div className="wcu-bob">
-                    <div className="relative overflow-hidden bg-[#710D19] text-white p-4 sm:p-6 rounded-2xl shadow-[0_22px_45px_rgba(80,8,20,0.38)] flex items-stretch gap-3.5 sm:gap-4 border border-white/10 transition-transform duration-500 hover:scale-105 min-w-[210px] xs:min-w-[230px] sm:min-w-[290px]">
+                    <div className="relative overflow-hidden bg-[#710D19] text-white p-4 sm:p-6 rounded-2xl shadow-[0_22px_45px_rgba(80,8,20,0.38)] flex items-stretch gap-3.5 sm:gap-4 border border-white/10 transition-transform duration-500 hover:scale-105 min-w-[190px] xs:min-w-[200px] sm:min-w-[250px]">
                       <span className="wcu-sweep-badge absolute inset-y-0 left-0 w-1/3 -skew-x-12 bg-gradient-to-r from-transparent via-white/15 to-transparent pointer-events-none" />
  
                       <div
